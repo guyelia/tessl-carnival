@@ -3,27 +3,28 @@ import { theme } from '../carnival';
 const { colors } = theme;
 
 /**
- * The midway map's daytime palette. Tent reds, creams and golds come from the
+ * The midway map's night-time palette, so the map sits in the same dark mode
+ * as the page around it. Tent reds, creams and golds come from the
  * carnival theme; the sky, grass, paths and other scenery shades only the map
  * uses live here.
  */
 export const palette = {
-  sky: '#38b4e6',
-  skyHigh: '#1f9bd6',
-  cloud: '#bfeafc',
-  cloudShade: '#94d8f4',
-  haze: '#5fc3b8',
+  sky: '#1e2a5a',
+  skyHigh: '#0b1030',
+  cloud: '#3a4478',
+  cloudShade: '#2c3564',
+  haze: '#2f4a6a',
 
-  grass: '#a5c43a',
-  grassDark: '#8aab2a',
-  grassEdge: '#7a9a22',
-  grassLight: '#b6d24c',
-  path: '#f3e28e',
-  pathShade: '#e2cd70',
-  hedge: '#6f9a2c',
-  hedgeDark: '#5a8122',
-  hedgeLight: '#86b236',
-  shadow: 'rgba(60, 90, 10, 0.28)',
+  grass: '#24452a',
+  grassDark: '#1b3820',
+  grassEdge: '#16301b',
+  grassLight: '#2e5533',
+  path: '#6e6450',
+  pathShade: '#5a5240',
+  hedge: '#1f3d22',
+  hedgeDark: '#152c18',
+  hedgeLight: '#2a4f2d',
+  shadow: 'rgba(5, 10, 25, 0.4)',
 
   red: colors.stripeA,
   redShade: '#b8283a',
